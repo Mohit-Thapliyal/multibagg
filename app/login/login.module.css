@@ -1,0 +1,94 @@
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.loginFormConatiner {
+  flex: 1.5;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginImageConatiner {
+  flex: 2.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formConatiner {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 65%;
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+.formContainer1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.formContainer2 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userIdContainer {
+  flex: 1;
+}
+
+.userPasswordContainer {
+  flex: 1;
+  background-color: white;
+}
+
+.input {
+  height: 45%;
+  width: 90%;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 1rem;
+  color: black;
+  outline: none;
+}
+
+.inputLabel {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.loginBtnConatiner {
+  height: 50%;
+  width: 90%;
+  background-color: black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.signUpText {
+  font-weight: 600;
+  cursor: pointer;
+}
