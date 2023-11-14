@@ -25,6 +25,7 @@
   background-color: white;
   color: black;
   border-radius: 1rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +36,7 @@
 }
 .signUpBtnAndTextContainer {
   flex: 1.5;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .imageUploadContainer {
@@ -82,7 +83,32 @@
 
 .signUpForm {
   flex: 2.5;
-  background-color: red;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formElement{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formElement title{
+  font-size: .5rem;
+  font-weight: 500;
+}
+
+.formElement input, .formElement textarea{
+  background: white;
+  outline: none;
+  font-size: 1rem;
+  border: none;
+  font-weight: 200;
+  border-bottom: 1px solid black;
+  padding: 3px;
+  color: black;
 }
 
 .signUpBtnAndTextContainer {
@@ -96,4 +122,9 @@
   height: 40px;
   background-color: black;
   color: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
