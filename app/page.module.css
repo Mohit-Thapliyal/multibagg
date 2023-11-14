@@ -97,16 +97,13 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
 }
 
-.logo {
-  position: relative;
-}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -214,9 +211,9 @@
     filter: invert(1);
   }
 
-  .logo {
+  /* .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
+  } */
 }
 
 @keyframes rotate {
@@ -226,4 +223,17 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+/* Home css */
+
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  flex: 2.75;
 }
