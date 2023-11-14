@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(req: NextRequest) {
   try {
     await connect();
-    const email = await req.json();
+    const {email} = await req.json();
     const data = await User.find({email});
     console.log(email, data);
     return NextResponse.json(data, { status: 200 });
