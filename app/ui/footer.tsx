@@ -11,15 +11,10 @@ export default function Footer() {
           <div>
             <h2>Multibagg</h2>
             <p className={styles.copyrightText}>
-              @cppyright, All rights reserved.
+              @copyright, All rights reserved.
             </p>
           </div>
-          <div>
-            <p className={styles.userActionText}>Login</p>
-          </div>
-          <div>
-            <p className={styles.userActionText}>Signup</p>
-          </div>
+          
         </div>
         <div className={styles.socialIconContainer}>
           <div className={styles.iconContainer}>

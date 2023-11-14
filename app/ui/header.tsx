@@ -1,13 +1,19 @@
-import styles from "./header.module.css";
-export default function Header() {
+import classes from "@/app/dashboard/dashboard.module.css";
+import Link from "next/link";
+
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className={styles.headerContainer}>
-      <div className={styles.logoContainer}>
-        <p className={styles.logo}>Multibagg</p>
+    <div className={classes.newDashboard}>
+      <div className={classes.header}>
+        <h2>MultiBagg</h2>
+
+        <button>
+          <Link href="/login">Login</Link>
+        </button>
       </div>
-      <div className={styles.loginContainer}>
-        <p className={styles.loginText}>login</p>
+
+        {/* Content */}
+        <div className={classes.right_container}>{children}</div>
       </div>
-    </div>
   );
 }

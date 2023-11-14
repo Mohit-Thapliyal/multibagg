@@ -1,9 +1,10 @@
 .footerContainer {
   flex: 1;
-  background-color: black;
+  background: #252525;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: white;
 }
 .footerContentBox {
@@ -27,6 +28,8 @@
 .copyrightText {
   margin-top: 0.25rem;
   font-weight: 200;
+  margin-top: 10px;
+  letter-spacing: .5px;
   font-size: small;
 }
 
