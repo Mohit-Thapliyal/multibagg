@@ -236,4 +236,17 @@
 
 .mainContainer {
   flex: 2.75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  height: 350px;
+  width: 600px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
 }
