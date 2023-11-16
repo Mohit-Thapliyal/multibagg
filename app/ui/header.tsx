@@ -1,7 +1,7 @@
 import classes from "@/app/dashboard/dashboard.module.css";
 import Link from "next/link";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout() {
   return (
     <div className={classes.newDashboard}>
       <div className={classes.header}>
@@ -11,9 +11,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Link href="/login">Login</Link>
         </button>
       </div>
-
-        {/* Content */}
-        <div className={classes.right_container}>{children}</div>
       </div>
   );
 }
